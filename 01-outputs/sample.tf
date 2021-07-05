@@ -29,3 +29,26 @@ output "boolean" {
 ## ${var.sample} is used within quotes.
 ## Usually ${} used only when you combine with some other data
 ## Single quotes does not support by terraform at any level. Supports only double quotes.
+
+variable "sample4" {
+  value = [
+    "Hello",
+    100,
+    true
+  ]
+}
+output "sample4" {
+  value = var.sample4[2]
+}
+
+variable "sample5" {
+  value = {
+    string = "DevOps",
+    number = 900,
+    boolean = true
+  }
+}
+
+output "sample5" {
+  value = var.sample5[number]
+}
