@@ -5,3 +5,11 @@ output "pen" {
 output "bottle" {
   value = "cork"
 }
+
+variable "sample" {
+  default = "Hello world"
+}
+
+output "firstCommand" {
+  value = var.sample
+}
