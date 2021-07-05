@@ -1,3 +1,3 @@
-variable "sachin" {
-  default = ten
+output "pen" {
+  value = "class"
 }
