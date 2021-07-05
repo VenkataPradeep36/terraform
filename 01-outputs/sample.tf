@@ -57,3 +57,4 @@ variable "sample6" {}
 
 output "helloworld" {
   value = var.sample6
+}
