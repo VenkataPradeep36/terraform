@@ -31,7 +31,7 @@ output "boolean" {
 ## Single quotes does not support by terraform at any level. Supports only double quotes.
 
 variable "sample4" {
-  value = [
+  default = [
     "Hello",
     100,
     true
@@ -42,7 +42,7 @@ output "sample4" {
 }
 
 variable "sample5" {
-  value = {
+  default = {
     string = "DevOps",
     number = 900,
     boolean = true
