@@ -58,3 +58,9 @@ variable "sample6" {}
 output "helloworld" {
   value = var.sample6
 }
+
+variable "ENV" {}
+
+output "WhichEnvirronment" {
+  value = var.ENV
+}
