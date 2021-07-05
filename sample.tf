@@ -1,0 +1,3 @@
+variable "sachin" {
+  default = ten
+}
