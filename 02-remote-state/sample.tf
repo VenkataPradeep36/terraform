@@ -16,3 +16,5 @@ terraform {
 provider "aws" {
   region              = "us-east-1"
 }
+
+// creating instance with s3 bucket for storing state file and locking mechanism for that file using dynamoDB service.
