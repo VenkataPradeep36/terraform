@@ -27,3 +27,4 @@ resource "aws_security_group" "allow_ssh" {
 output "sg_id" {
   value = aws_security_group.allow_ssh.id
 }
+//printing the security group id in output and calling it in the root module of ec2 instance
