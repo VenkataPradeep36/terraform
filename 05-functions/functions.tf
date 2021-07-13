@@ -7,5 +7,5 @@ output "TotalTools" {
 }
 
 output "PatricularTool" {
-  value = length(var.ToolsforDevOps, 0)
+  value = element(var.ToolsforDevOps, 0)
 }
